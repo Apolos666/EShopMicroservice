@@ -1,0 +1,14 @@
+﻿global using Ordering.Domain.Enums;
+global using BuildingBlocks.CQRS;
+global using Ordering.Application.Dtos;
+global using FluentValidation;
+global using Microsoft.EntityFrameworkCore;
+global using Ordering.Domain.Models;
+global using Ordering.Application.Data;
+global using Ordering.Domain.ValueObjects;
+global using Ordering.Application.Exceptions;
+global using MediatR;
+global using Ordering.Domain.Events;
+global using Microsoft.Extensions.Logging;
+global using Ordering.Application.Orders.Queries.GetOrderByName;
+global using Ordering.Application.Extensions;
