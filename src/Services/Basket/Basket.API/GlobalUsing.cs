@@ -16,5 +16,6 @@ global using Microsoft.Extensions.Caching.Distributed;
 global using HealthChecks.UI.Client;
 global using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 global using Discount.Grpc.Protos;
-
+global using BuildingBlocks.Messaging.MassTransit;
+global using Basket.API.Dtos;
 
